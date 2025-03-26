@@ -1,0 +1,12 @@
+# Задержка при перезагрузке плагина (в тиках, 20 тиков = 1 секунда)
+reload-delay: 10
+
+# Разрешать асинхронную загрузку/выгрузку (true/false)
+async-loading: true
+
+# Права доступа
+permissions:
+  load: "rdutils.load"
+  unload: "rdutils.unload"
+  reload: "rdutils.reload"
+  list: "rdutils.list"

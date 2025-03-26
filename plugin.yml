@@ -1,0 +1,31 @@
+name: RDUtils
+version: '${project.version}'
+main: r4d.d7.rdutils.RDUtils
+api-version: '1.16'
+description: Улучшенный загрузчик плагинов с поддержкой конфигов
+author: R4drnd
+website: modrinth.com/user/R4drnd
+
+commands:
+  rdutils:
+    description: Управление плагинами (загрузка/выгрузка/перезагрузка)
+    usage: /rdutils <load|unload|reload|list> [plugin]
+    permission: rdutils.use
+    permission-message: "&cУ вас нет прав на использование этой команды!"
+
+permissions:
+  rdutils.use:
+    description: Доступ к основной команде /rdutils
+    default: op  # Только операторы (можно изменить на true/false)
+  rdutils.load:
+    description: Разрешение на загрузку плагинов
+    default: op
+  rdutils.unload:
+    description: Разрешение на выгрузку плагинов
+    default: op
+  rdutils.reload:
+    description: Разрешение на перезагрузку плагинов
+    default: op
+  rdutils.list:
+    description: Разрешение на просмотр списка плагинов
+    default: true  # Могут все игроки

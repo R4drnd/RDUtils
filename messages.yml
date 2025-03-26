@@ -1,0 +1,24 @@
+# Сообщения команд
+commands:
+  no-permission: "&cУ вас нет прав на это действие!"
+  usage:
+    load: "&cИспользуйте: &f/rdutils load <название.jar>"
+    unload: "&cИспользуйте: &f/rdutils unload <плагин>"
+    reload: "&cИспользуйте: &f/rdutils reload <плагин>"
+  success:
+    load: "&aПлагин &e%plugin% &aуспешно загружен!"
+    unload: "&aПлагин &e%plugin% &aвыгружен!"
+    reload: "&aПлагин &e%plugin% &aперезагружен!"
+  error:
+    not-found: "&cПлагин не найден!"
+    file-not-found: "&cФайл плагина не найден: %file%"
+    load-failed: "&cНе удалось загрузить плагин (неверный формат?)"
+    reflection-error: "&eНе удалось полностью выгрузить плагин (Reflection error)"
+
+# Список плагинов
+list:
+  header: "&6&lСписок плагинов (&a%count%&6):"
+  entry: "&7- &e%plugin% &7(%status%&7)"
+
+# Общие сообщения
+prefix: "&6&lRDUTILS: &f"
